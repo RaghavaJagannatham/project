@@ -33,7 +33,7 @@ export function Navbar({ onToggleSidebar }: NavbarProps) {
   const displayName =
     user?.name ||
     (user?.email ? user.email.split('@')[0] : '') ||
-    'Admin';
+    'User';
   const avatarSrc = user?.avatar || undefined;
   const fallbackInitial = displayName.charAt(0).toUpperCase();
 

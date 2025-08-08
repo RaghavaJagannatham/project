@@ -1,4 +1,4 @@
-import { User } from '@/types';
+import { User } from '@/lib/auth';
 
 export interface UserPreferences {
   likedChapters: string[];

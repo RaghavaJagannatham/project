@@ -58,9 +58,7 @@ export default function AdminDashboard() {
       window.location.href = '/auth/login';
       return;
     }
-    if (!hasPermission('manage_users')) {
-      // Allow access but show limited functionality for non-admin users
-    }
+    // Allow access but show limited functionality for non-admin users
   }, [user, hasPermission]);
 
   if (!user) {

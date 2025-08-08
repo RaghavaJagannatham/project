@@ -1,11 +1,4 @@
-export interface User {
-  id: string;
-  email: string;
-  name: string;
-  avatar?: string;
-  role: 'admin' | 'user';
-  createdAt: Date;
-}
+import { User } from '@/lib/auth';
 
 export interface Chapter {
   id: string;
